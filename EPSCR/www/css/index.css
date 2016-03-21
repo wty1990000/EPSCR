@@ -53,3 +53,33 @@ body {
 
 @media screen and (orientation: landscape) {
 }
+
+
+/*Customized global style starts from here*/
+.EPSCR-icon .ui-btn { padding-top: 45px !important; }
+.EPSCR-icon .ui-btn:after { 
+	width: 40px!important; 
+	height: 40px!important; 
+	margin-left: -19px !important;
+	box-shadow: none!important; 
+	-moz-box-shadow: none!important; 
+	-webkit-box-shadow: none!important; 
+	-webkit-border-radius: 0 !important; 
+	border-radius: 0 !important; }
+.ui-icon-field:after{
+	background: url("../images/field.svg") 50% 50% no-repeat;
+	background-size: 48px 48px;}
+.ui-nosvg .ui-icon-field:after{
+	background: url("../images/field.svg") 50% 50% no-repeat; 
+	background-size: 48px 48px;
+}
+.ui-icon-referee:after{
+	background: url("../images/referee.svg") 50% 50% no-repeat;
+	background-size: 48px 46px;
+}
+.ui-nosvg .ui-icon-referee:after{
+	background: url("../images/referee.svg") 50% 50% no-repeat;
+	background-size: 48px 46px;
+}
+
+
